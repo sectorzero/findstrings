@@ -121,14 +121,6 @@ public class SubstringSet {
   // Internal : PUT
   // -----------------
   int insertSuffixesOf(String s) {
-    // ( Inefficient First Pass )
-    // char[] buf = s.toCharArray();
-    // for(int j = 1; j <= s.length(); ++j) {
-    //   for(int i = 0; i <= (s.length() - j); ++i) {
-    //     // System.out.println(String.format("Inserting : %s", s.substring(i, i+j)));
-    //     insertSuffix(buf, i, i + j - 1);
-    //   }
-    // }
     int count = 0;
     char[] buf = s.toCharArray();
     for(int i = 0; i < s.length(); ++i) {
