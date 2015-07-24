@@ -86,8 +86,8 @@ import lombok.Value;
  * 2    OK           OK     -
  * 3    OK           OK     -
  * 4    OK           OK     20          383.50          1699                100         15
- * 5    OK           FAIL   40          1575.65         18745               421         64
- * 6    OK           FAIL   50          1370.20         13384               500         73
+ * 5    OK           T/O    40          1575.65         18745               421         64
+ * 6    OK           T/O    50          1370.20         13384               500         73
  * ( Machine : 2.6 GHz Intel Core i5 / 16 GB 1600 MHz DDR3 / x86_64 / Oracle JRE Java 8 )
  *
  * You can see that this solution is highly optimized towards query-time. As discussed above, the construction
